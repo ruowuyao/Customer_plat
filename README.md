@@ -1,4 +1,4 @@
-# cunstomer_plat
+# customer_plat
 所用主要技术有：webix jQuery 
 
-[cunstomer_plat](http://ruowuyao.github.io/cunstomer_plat)
+[customer_plat](http://ruowuyao.github.io/customer_plat)
