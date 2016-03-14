@@ -1,0 +1,73 @@
+.movies .webix_dataview_item, .movies .webix_dataview_item.webix_selected{
+    padding: 3px 2px;
+    border-color: #fff;
+    background-image:none;
+    background-color:#fff;
+    margin-left: 12px;
+
+}
+.movies .webix_dataview_item.webix_selected .overall{
+    background-color: #DBFFB0;
+    background: -moz-linear-gradient(top , #DBFFB0 0%, #D0F4A4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#DBFFB0), color-stop(1, #D0F4A4));
+    background: -o-linear-gradient(top, #DBFFB0 0% , #D0F4A4 100%);
+    background: -ms-linear-gradient(top, #DBFFB0 0% , #D0F4A4 100%);
+    background: -moz-linear-gradient(top, #DBFFB0 0% , #D0F4A4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#DBFFB0), color-stop(1, #D0F4A4));
+ }
+.overall{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 8px;
+    height: 80px;
+    padding: 10px;
+    color: #303030;
+    text-shadow: 0 1px 0 #FFFFFF;
+    background-color: #7FFFFF;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#edeff4), color-stop(1, #7FFFFF));
+    background: -o-linear-gradient(top, #edeff4 0% , #7FFFFF 100%);
+    background: -ms-linear-gradient(top, #edeff4 0% , #7FFFFF 100%);
+    background: -moz-linear-gradient(top, #edeff4 0% , #7FFFFF 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#edeff4), color-stop(1, #7FFFFF));
+    box-shadow: 0px 1px 1px #7FFFFF;
+}
+.title{
+    height:40px;
+    line-height:20px;
+    overflow:hidden;
+    font-weight:bold;
+    float: left;
+    padding-left: 5px;
+    width: 280px;
+}
+.year{
+     width: 280px;
+     text-align:right;
+ }
+ .webix_scroll_cont:first-child{
+    text-align: center;
+ }
+ .webix_header>div{
+    background-color: #7F2AFF;
+    
+ }
+ /* .icon{
+    font-family:"iconfont";
+ } */
+ @font-face {font-family: "iconfont";
+  src: url('../fonts/iconfont.eot'); /* IE9*/
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-fenlei:before { content: "\e64b"; }

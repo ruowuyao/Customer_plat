@@ -1,0 +1,111 @@
+body{
+	margin-left:0px;
+	margin-right:10px; 
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+}
+.webix_layout_toolbar.webix_toolbar .webix_el_label{
+	font-size: 24px;
+}
+/* .webix_layout_toolbar.webix_toolbar{
+    background: #D0D2D4;
+} */
+.rizi{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: #fff;
+}
+.webix_view .webix_layout_line{
+ position: relative;
+}
+.userMenu{
+   
+    margin-top:13px!important;
+}
+.webix_menu-x .webix_list_item{
+     font-size: 18px!important;
+}
+.update{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.logo{
+	height: 50px;
+	width: auto;
+	position: absolute;
+	top: 5px;
+	left:30px;
+}
+.wenzi{
+	position: absolute;
+	top: 15px;
+	left:120px;
+}
+.webix_el_button button{
+	font-size: 18px;
+}
+ .tree{
+    background:#293038;
+    color:#fff;
+} 
+/*.tree:after{
+   content:"更新日志";
+   position: relative;
+   top:60px;
+   margin-left: 20px;
+}*/
+/*子菜单对齐主菜单*/
+.webix_tree_leaves{
+    padding-left:0px!important;
+    padding-right:0px!important;
+    margin-left: 0px!important;
+}
+.webix_tree_item{
+    height:40px;
+    line-height: 40px;
+    padding-left:10px; 
+    padding-top:4px; 
+} 
+.webix_tree_item.webix_selected {
+    background:#37424F;
+    /*opacity: 0.8;*/
+}
+.webix_tree_item:hover{
+    background:#37424F;
+    /*opacity: 0.8;*/
+}
+.webix_tree_item.webix_selected span {
+    background:#37424F;
+    padding: 0px;
+    margin-left:0px; 
+}
+/*火狐不兼容tab上面的小叉叉显示不出来*/
+.webix_item_tab {
+	white-space:none;
+    /*text-overflow:ellipsis;*/
+    /*position: absolute;*/
+    /*height:30px;*/
+    /*overflow: hidden;*/
+}
+.webix_item_tab.webix_selected {
+	/*width:200px!important;*/
+}
+.fa-times{
+	top:5px;
+	right:5px;
+}
+.firstT{
+    margin-left: 10px!important;
+}
+/*文件夹打开关闭的图标*/
+.webix_view .webix_tree_close:before{
+    content:"\f054";
+}.webix_view .webix_tree_open:before{
+     content:"\f078";
+}
+.webix_tree_open,.webix_tree_close{
+    margin-right:6px!important; 
+}
+

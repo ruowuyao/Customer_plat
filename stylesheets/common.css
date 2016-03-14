@@ -1,0 +1,23 @@
+.webix_ss_header TD{
+	font-family: 微软雅黑;
+ 	font-size: 18px;/* 表格头部大小 */
+ 	font-weight:500;
+ 	color:black!important;
+ }
+ .webix_cell{
+ 	font-family: 微软雅黑;
+ 	font-size: 16px;
+ 	color:black!important;
+ }
+.webix_column>div{
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.webix_table_cell{
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+/* .webix_list_item.webix_selected{
+	background-color: #3498DB;
+	background-color: #ccc;
+} */

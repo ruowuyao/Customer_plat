@@ -1,0 +1,51 @@
+.webix_view{
+overflow: visible;
+}
+.overall{
+	text-align: center;
+}
+.webix_dataview_item{
+	margin-left: 30px;
+	border: 1px solid #ddd;
+	box-shadow: 4px 6px 8px #E1E3E6;
+}
+.tableC{
+	margin-left: 30px!important;
+}
+#sign1{
+	background-image: url(../images/error3.gif);
+	margin-left: 70px;
+	height:40px;
+	width: 60px;
+}
+#sign2{
+	background-image: url(../images/error7.png);
+	margin-left: 90px;
+	height:27px;
+	width: 20px;
+	margin-top: 10px;
+}
+.look1{
+		position: absolute;
+		background: #ce5545;
+		font-size: 12px;
+		color: #fff;
+		text-decoration: none;
+		padding: 5px;
+		margin-left: 200px;
+		border:1px solid #ce5545;
+		border-radius:3px;
+		top: 315px;
+	} 
+.look2{
+		position: absolute;
+		background: #3498db;
+		font-size: 12px;
+		color: #fff;
+		margin-left: 200px;
+		text-decoration: none;
+		padding: 5px;
+		border:1px solid #3498db;
+		top: 315px;
+		border-radius:3px;
+	} 

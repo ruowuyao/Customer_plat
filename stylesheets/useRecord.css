@@ -1,0 +1,40 @@
+ .webix_layout_toolbar.webix_toolbar .webix_inp_static{
+	border-bottom: 1px solid #666666;
+	border-color: #666666;
+	color:#3498DB;
+}
+.webix_layout_toolbar.webix_toolbar{
+	background: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #ccc;
+}
+.webix_layout_toolbar.webix_toolbar .webix_inp_static:focus{
+	border-color: #666666;
+}
+ .webix_inp_label {
+    color: #3498DB!important;   
+} 
+.webixtype_base{
+	color: #fff!important;
+	background-color: #3498DB!important;
+	border-color:#3498DB!important;
+}
+.btn_check{
+	margin-left:20px!important;
+} 
+.webix_el_text input{
+	border-color: #666666!important;
+}
+/*------分页开始-----*/
+.pager{
+    margin-top:20px!important;   
+}
+.pager{ 
+	text-align: center;	
+}
+.webix_view{
+	overflow:visible!important;
+}
+/*------分页结束-----*/

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>客户工作平台</title>
+    <link href="stylesheets/webix_3.0.4.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/index.css"rel="stylesheet"  type="text/css">
+    <link rel="stylesheet" href="stylesheets/iconfont.css">
+    <link href="stylesheets/common.css"rel="stylesheet"  type="text/css">
+    <script src="javascripts/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/webix_3.0.4.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/index.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <!-- <center> -->
+	<div id="body"></div>
+    <script type="text/javascript">
+        $(function(){
+            document.getElementById("body").style.width=window.screen.width+"px";
+            document.getElementById("body").style.height=document.body.clientHeight+"px";
+            console.log(document.body.scrollHeight);
+            console.log(document.body.clientHeight);
+            console.log(window.screen.height);
+        });
+    </script>
+</body>
+	<!-- </center> -->
+</html>
