@@ -22,19 +22,19 @@ webix.ui.fullScreen();
     ]},
     {id:"class.html",value:"班别管理",icon:"pinterest"},
     {id:"reserve.html",value:"库存状况",icon:"th-list "},
-    {id:"useRecord.html",value:"领用回收记录",icon:"retweet"},  
+    //{id:"useRecord.html",value:"领用回收记录",icon:"retweet"},  
     {id:"operator.html",value:"操作员管理",data:[
       {id:"alloperator.html",value:"所有操作员",icon:"user"},
       {id:"group.html",value:"操作员入组",icon:"group"},
     ]},
     {id:"machine.html",value:"机台管理",icon:"cogs"},
     {id:"cutterLibrary.html",value:"刀具库管理",icon:"list-alt"},
-    {id:"report.html",value:"报表",icon:"bar-chart"},
-    {id:"terminal.html",value:"终端状况",icon:"wrench"},
-    {id:"system.html",value:"系统设置",open:true,data:[
-      {id:"role.html",value:"角色管理",icon:"umbrella"}, 
-      {id:"member.html",value:"成员管理",icon:"user-md"},            
-    ]},
+    //{id:"report.html",value:"报表",icon:"bar-chart"},
+    //{id:"terminal.html",value:"终端状况",icon:"wrench"},
+   // {id:"system.html",value:"系统设置",open:true,data:[
+     // {id:"role.html",value:"角色管理",icon:"umbrella"}, 
+      //{id:"member.html",value:"成员管理",icon:"user-md"},            
+   // ]},
   ];
   var my_tab=[
     { value: '当前库存', id: 'listView'},
